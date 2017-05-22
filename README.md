@@ -1,7 +1,8 @@
 #graduation_design_v2  
   
-server:  
-	check:	用户登录与注册、测试用户邮箱  
+server:  
+=
+	check:	用户登录与注册、测试用户邮箱  
 			更新上传目录、创建上传音乐记录表  
 	const_value:	基本常量值  
 	database:	访问数据库的操作  
@@ -18,8 +19,9 @@ server:
 	user:	定义用户信息结构体、服务器套接字集合结构体、释放套接字  
 	wav_parser:	测试音乐文件并读取音乐文件头部  
 	  
-client:  
-	check_info:	对邮箱和密码进行本地正则校验  
+client:  
+=
+	check_info:	对邮箱和密码进行本地正则校验  
 	connect_server:	初始化客户端套接字并连接服务器  
 	const_value:	基本常量值  
 	download_queue:	下载队列的实现  
