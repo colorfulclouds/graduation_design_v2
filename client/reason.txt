@@ -1,0 +1,6 @@
+20001:socket error
+20002:fail to connect server
+21001:mode error
+21101:id is empty
+21102:password is empty
+21103:fail to check
