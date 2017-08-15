@@ -53,6 +53,8 @@ struct music_dir
 #include "recvfrom_server.h"
 #endif
 
+//the processing of *.wav
+//internet
 typedef unsigned char  uint8_t; 
 typedef unsigned short uint16_t; 
 typedef unsigned int   uint32_t; 
