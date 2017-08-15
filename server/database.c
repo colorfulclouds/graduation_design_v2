@@ -9,7 +9,7 @@ void init_database(MYSQL *connection)
 	mysql_init(connection);
 	
 	//连接数据库 API
-	if( !(connection = mysql_real_connect(connection , "localhost" , "yunhai" , "19951102YuFei!" , "graduation_design" , 0 , NULL , 0) ) )
+	if( !(connection = mysql_real_connect(connection , "localhost" , "admin_name" , "admin_password!" , "database_name" , 0 , NULL , 0) ) )
     {
         fprintf( stderr,"[11001]%s\n",mysql_error(connection) );
         exit(EXIT_FAILURE);
