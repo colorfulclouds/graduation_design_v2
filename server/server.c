@@ -20,7 +20,7 @@ int init_server(struct sockaddr_in *server_info , int port)
 	
 	server_info->sin_family = AF_INET;
 	server_info->sin_port = htons(port);	//32165
-	server_info->sin_addr.s_addr = inet_addr("10.135.188.26");
+	server_info->sin_addr.s_addr = inet_addr("xxx.xxx.xxx.xxx");
 	
 	//quick restart
 	if( ( setsockopt(server_sock_fd , SOL_SOCKET , SO_REUSEADDR , &no_use , sizeof no_use ) ) != 0)  
