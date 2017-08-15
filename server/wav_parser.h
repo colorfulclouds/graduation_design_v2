@@ -1,3 +1,6 @@
+//no use
+//internet
+
 //WAV_PARSER
 
 #ifndef HEAD
