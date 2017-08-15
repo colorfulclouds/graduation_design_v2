@@ -18,7 +18,7 @@ int init_client(struct sockaddr_in *client_info , int port)
 	
 	client_info->sin_family = AF_INET;
 	client_info->sin_port = htons(port);
-	client_info->sin_addr.s_addr = inet_addr("123.207.118.238");
+	client_info->sin_addr.s_addr = inet_addr("xxx.xxx.xxx.xxx");
 	
 	if(connect(client_sock_fd,(struct sockaddr *)client_info,sizeof(struct sockaddr)) == -1)
 	{
